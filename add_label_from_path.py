@@ -50,11 +50,9 @@ def main():
     # Add the sharing label to each item
     for v in videos:
         v.addLabel(label_to_add)
-
-    # Print all affected movies, shows
-    for v in videos:
-        print("%s - %s" % (v.title, v.type))
-
+        
+        # Print each affected movies, shows
+        print("%s - %s" % (v.title, v.type)
     
     
 if __name__ == "__main__":
