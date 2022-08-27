@@ -3,7 +3,7 @@ from plexapi.server import PlexServer
 import re
 
 # ----------------------------------------------------------------------------------------------------------------------------
-# Plex script to find all shows & movies whose path matches a specified regex, and then adds a specified sharing label to each
+# Plex script to add a specified sharing label to each show & movie whose path contains an inputted regex
 # ----------------------------------------------------------------------------------------------------------------------------
 
 def main():
